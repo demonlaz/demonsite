@@ -1,0 +1,60 @@
+#naviki{
+    background:url(../images/fon-naviki.jpg);
+    background-size:100%;
+    height:30em;
+    width:30%;
+    border:groove gold;
+    float: right;
+    margin-right: 250px;
+    margin-top: 92px; 
+    min-width: 25em;  
+}
+
+
+
+#dotted {
+list-style: none;
+font-family: 'Marck Script', cursive;
+}
+#dotted li {
+
+border-bottom: 2px #404B51 ;
+font-size: 15px;
+line-height: 2;
+}
+#dotted li span:nth-child(odd) {
+padding-right: 6px; 
+/*color:  #808080;*/
+margin-left:51px;
+text-shadow:1px 1px 1px  #ffffff;
+}
+#dotted li span:nth-child(even) {
+float: right; 
+padding-left: 6px;
+color:#57272e;
+margin-right:90px;
+text-shadow:1px 1px 1px  #ffffff;
+}
+#dotted span {
+
+position: relative;
+bottom: -30px;
+}
+#nerasp-stati {
+    text-align: center;
+    color: #ffffff;
+    margin:0;
+    font-size:20pt;
+    text-shadow:1px 1px 1px  #ffffff;
+}
+.plus{
+    border-radius:10px;
+    background:black;
+    color:#ffffff;
+}
+#osnov-stat{
+    color:red;
+}
+
+
+

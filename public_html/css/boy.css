@@ -1,0 +1,610 @@
+
+@font-face {
+	    font-family: Gotik; /* имя шрифта для CSS правил */
+	    src: local("Gotik"), /* проверяем наличие шрифта в ОС пользователя */
+         url(font/10323.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
+  }
+#mainselection select {
+   border: 0;
+   color: #EEE;
+   background: transparent;
+   font-size: 20px;
+   font-weight: bold;
+   padding: 2px 10px;
+   width:300px;
+   *width: 350px;
+   *background: #58B14C;
+   -webkit-appearance: none;
+   margin-bottom:5px;
+   
+}
+
+#mainselection {
+   overflow:hidden;
+   width:600px;
+   -moz-border-radius: 9px 9px 9px 9px;
+   -webkit-border-radius: 9px 9px 9px 9px;
+   border-radius: 9px 9px 9px 9px;
+   box-shadow: 1px 1px 11px #330033;
+   background: linear-gradient(to right, #8b0000,#000000);
+   height:147px;
+   
+}
+#udar{
+   float:left;
+   width:300px;
+}
+#kastanut{
+    width:187px;
+    margin:5px auto;
+}
+
+#submit-udar{
+    
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px #000;
+  user-select: none;
+  padding: .8em 2em;
+  outline: none;
+  background-color: #000;
+  background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  box-shadow: rgba(0,0,0,.3) 0 2px 5px; 
+  border-radius: 20px;
+  color:red;
+margin-top: 54px;
+}
+#submit-udar:active {
+  
+  box-shadow: none;
+}
+#submit-udar:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+#od{
+    font-family:'Californian FB';
+    float:left;
+    margin:5px;
+}
+#boy{
+    
+    width:400px;
+    float:right;
+    margin-top:300px;
+    
+}
+
+#pers-osnovno{
+    height:30em;
+    width:17em;
+    background:url(../images/cherep.jpg) no-repeat center;
+    
+    border:inset;
+    border-width:5px;
+    box-shadow:2px 3px 3px black;
+    
+}
+#lvl{
+    height:20px;
+    width:20px;
+    background:black;
+    color:#FFC500;
+    border-color:#FFC500;
+    text-align:center;
+    margin:0 auto;
+    border:ridge;
+    text-shadow:1px 1px 1px #ffffff;
+}
+#div-nik{
+    height:30em;
+    width:17.5em; 
+      margin-top: 65px;
+  margin-left: 11%;
+  float:left;
+  margin-bottom: 26px;
+}
+#h2-nik{
+    
+  font-size  : 15pt;
+  color      : #b8b8b8;
+  font-family: 'Berkshire Swash', cursive;
+  text-shadow: 1px 1px 0 #888 , 1px 1px 0 #ccc; 
+  text-align: center;  
+  padding-bottom: 5px;
+
+    
+ 
+}
+#pers-boy{
+    height:400px;
+    width:839px;
+    float:left;
+    margin-bottom:122px;
+    
+}
+
+
+
+
+
+
+
+
+#vivod{
+    color: red;
+}
+	
+body {
+     min-width: 1500px;
+     min-height: 768px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  	background-image: url(../images/fon.jpg); background-repeat: repeat; background-position: top center;
+
+  
+
+}
+#form {
+  padding: 10px;
+  
+  border-radius: 8px;
+ 
+  margin: 10px 0 10px 0;
+  overflow: hidden;
+  bottom: 5px;
+   height: 27px;
+  width: 50%;
+  float: left;
+  margin-left: 5%;
+}
+#form div {
+  margin-bottom: 5px;
+}
+#info {
+    
+    height: 160px;
+  padding: 15px;
+  padding-left: 2%;
+  background: #c0c0c0;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px black;
+   overflow-x:hidden;
+    overflow-y:auto;
+      border: ridge;
+      float: left;
+  width: 50%;
+  margin-left: 5%;
+  
+  
+  
+  
+  
+    border: 30px solid #c28b7b; /* IE */
+    min-height: 100px;
+    padding: 10px;
+    background: #49423d;
+    -moz-border-image: url(../images/cherepa-ramka.jpg) 150 150 150 150 repeat; /* Firefox 4 */
+    -webkit-border-image: url(../images/cherepa-ramka.jpg) 150 150 150 150 repeat; /* Safari 5 и Chrome */
+    -o-border-image: url(../images/cherepa-ramka.jpg) 150 150 150 150 repeat; /* Opera 10.5 */
+    border-image: url(../images/cherepa-ramka.jpg) 150 150 150 150 repeat; /* CSS3 */
+        
+   } 
+
+#info p {
+  clear: both;
+}
+.vivod-sobwenii{
+    color: white;
+    /* font-family: "Lucida Console", Monaco, Courier, "Courier New", monospace;*/
+    font-family: Gotik;
+    width: 100%;
+    display:inline;
+    text-shadow: 1px 1px 1px black;
+   
+}
+.admincvet{
+    font-family: Gotik;
+      display:inline;
+    color: #ffd700;
+     width: 100%;
+    text-shadow: 1px 1px 1px black;
+    
+}
+.hidden {
+  display: none;
+}
+
+/* Оформление */ 
+
+#form p {
+  /*display: relative;*/
+  clear: both;
+}
+p .ttl {
+  width: 100px;
+  float: left;
+  text-align: right;
+}
+p .ttl {
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+}
+.fld {
+  float: left;
+  margin-bottom: 3px;
+  padding-left: 10px;
+}
+#nickname, #content {
+  width: 400px;
+}
+
+.author, .date {
+  font-weight: bold;
+}
+.date {
+  padding-left: 10px;
+}
+.content {
+  display: block;  
+  padding-bottom: 10px;
+  
+
+  
+}* {
+    padding : 0;
+    margin : 0;
+}
+
+
+#chat{
+    margin-top: 5px;
+    position:relative;
+    bottom: -50px;
+    width: 100%;
+    min-width: 1000px;
+    overflow: hidden;
+}
+
+
+#onlain{
+  
+    height: 157px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #bdbcb0;
+    background: black;
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding: 5px;
+    position: relative;
+    left: 60px;
+    background:url(../images/onlain-backgraund.jpg) no-repeat top; 
+     background-size: 105%;
+}
+#h3onlain{
+    color: white;
+   text-align: center;
+      
+}
+#content{
+    font-family: "Lucida Console", Monaco, Courier, "Courier New", monospace;
+    border:outset;
+    border-radius: 15px;
+    background: black;
+    color:#ffffff;
+    padding-left:5px;
+    float:left;
+    height: 26px;
+}
+.P-onlin{
+    color: white;
+    text-align: justify;
+    text-shadow:2px 2px 4px white;
+    font-size: 15pt;
+}
+#adminka{
+    
+    
+    height: 160px;
+    width: 175px;
+    
+    margin: 5px;
+    margin-right: 5%;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    
+    
+    overflow-x:hidden;
+    overflow-y:auto;
+    padding: 10px;
+    position: absolute; 
+    z-index: 1000;
+}
+#submit-id{
+    
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px #000;
+  user-select: none;
+  padding: .8em 2em;
+  outline: none;
+  background-color: #000;
+  background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  box-shadow: rgba(0,0,0,.3) 0 2px 5px; 
+  
+  
+  margin-top: -6px;
+  margin-right: -2%;
+  border-radius: 20px;
+
+}
+#submit-id:active {
+  
+  box-shadow: none;
+}
+#submit-id:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+
+#vixod-a{
+     color:rgba(255,255,255,0.5);
+    font-weight: 700;
+    text-shadow: none;
+    position: relative;
+    top: 26em;
+    left: 7em;
+     text-decoration:none;
+
+}
+
+
+ 
+#vixod-a:hover,
+
+#vixod-a:focus {
+
+color: red;
+
+}
+
+/*вывод подсказки*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+#vrag-skin{
+    height:30em;
+    width:17em;
+    border:groove;
+    border-width:5px;
+    
+    
+    
+}
+#vrag-img{
+     height:30em;
+    width:17em;
+    position	: relative;
+}
+
+
+#xp-igrok{
+    position: relative;
+    top:30px;
+    color:red;
+    text-align: center;
+    font-family: Gotik;
+    font-size: 21pt;
+    text-shadow: 1px 1px 1px black;
+}
+
+#xp-vragg{
+    position:relative;
+    color:red;
+    bottom: 40px;
+    left: 100px;
+    font-family: Gotik;
+     font-size: 34pt;
+     text-shadow: 1px 1px 1px black;
+}
+.radio-toolbar input[type="radio"] {
+    display:none; 
+    float:left;
+}
+
+.radio-toolbar label {
+    display:inline-block;
+   
+    padding:4px 11px;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:600;
+    text-shadow:1px 1px 1px #ffd700;
+    border-radius:20px;
+}
+
+.radio-toolbar input[type="radio"]:checked + label { 
+    background:linear-gradient(to right, #ffd700,#000000);
+}
+
+
+
+
+
+
+.radio-toolbar2 input[type="radio"] {
+    display:none; 
+    float:left;
+}
+
+.radio-toolbar2 label {
+     display:inline-block;
+   
+    padding:4px 11px;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:600;
+    text-shadow:1px 1px 1px #ffd700;
+    border-radius:20px;
+}
+
+.radio-toolbar2 input[type="radio"]:checked + label { 
+     background:linear-gradient(to right, white,#000000);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#radio{
+   width: 133px;
+  float:left;
+  margin-left:90px;
+}
+#radiodef{
+     width: 132px;
+    float:right;
+    margin-right:104px;
+     
+}
+#boy-res{
+    
+    float:right;
+    width: 50%;
+    height: 100%;
+    font-family: Gotik;
+    font-size: 18pt;
+}
+#info2{
+      
+    float:left;
+    width: 50%;
+    height: 100%; 
+    font-family: Gotik;
+    font-size: 16pt;
+    overflow-x: auto; 
+}
+#textaria-mail{
+    width: 100%;
+    font-family: Gotik;
+    font-size:18pt ;
+     line-height: 0.9em;
+    
+}
+
+.onla,.onla:before {
+  display: inline-block;
+  font-family: Gotik;
+  font-size: 18pt;
+  color: white;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 100px;
+  border: solid rgb(4,88,192);
+  border-width: 3px 10px;
+  outline: none;
+  opacity: 1;
+  transition: .6s, opacity 0s 9999999s, visibility 0s 9999999s;
+  
+} 
+.onla {
+  position: relative;
+  padding: calc(8px + 3px - 1px) calc(15px + 10px - 1px);
+  border: 1px solid rgba(62,153,239,.5);
+  background: linear-gradient(to left, black 1%, #fff 3%, black 8%, rgba(255,255,255,.3) 50%, white 92%, #fff 97%, black 99%) no-repeat;
+  
+}
+.onla:before {
+  content:  "УЗНАТЬ ПОДРОБНОСТИ";
+  position:  absolute; 
+  bottom: -7px;
+  left: -1px;
+  width: calc(100% - (15px + 10px - 1px)*2);
+  background: #fff linear-gradient(rgb(58,0,253), rgb(4,88,0) 60%, rgb(49,112,0));
+  box-shadow: 0 10px 18px rgba(0,0,0,.5);
+}
+.onla:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.onla:hover:before {
+  border-color: #0766d8;
+  background: #fff linear-gradient(#3fadff, #0766d8 60%, #3279dd);
+}
+.onla:focus,
+.onla:active {
+  -webkit-transform: scale(2, 2);
+  transform: scale(2, 2);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+#razarabu{
+    position:absolute;
+    padding: 23px;
+    width: 200px;
+    margin: 0 auto;
+}
+#xp-nad-procentami{
+    font-size: 18pt;
+    
+    text-shadow: 2px 2px 2px black;
+}
+
+#div-nik-vrag{
+height:31em;
+    width:18em;
+   
+    
+   float: right;
+    margin-right:10%;
+    margin-top:65px;
+    
+    }
+    .odeto{
+width:62px;
+height:62px;
+
+margin-right:86px;
+margin-bottom:10px;
+margin-left:10px;
+border:groove;
+}

@@ -1,0 +1,210 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
+}
+#inv{
+    background:url(dim.jpg) no-repeat center;
+    background-size:190%;
+
+    height:30em;
+    width:30%;
+    border:groove gold;
+    float: right;
+    margin-right: 250px;
+    margin-top: 92px; 
+    min-width: 25em;  
+     overflow-x:hidden;
+    overflow-y:auto;
+}
+
+
+.select-zakl{
+    width:40%;
+    height:31px;
+    margin:17px;
+   background: linear-gradient(to right, #8b0000,black);
+    color:#ffefef;
+}
+.option-zakl{
+    color:red;
+    background:black;
+    overflow:scroll;
+}
+#slovo-zakl{
+    background: linear-gradient(to right, #8b0000,gold);
+    width:90%;
+    padding:3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:20pt;
+     margin:17px;
+     height:31px;
+     
+}
+#submit-zakl{
+    
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: -1px -1px #000;
+  user-select: none;
+  padding: .8em 2em;
+  outline: none;
+  background-color: #000;
+  background-image: linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%), radial-gradient(190% 100% at 50% 0%, rgba(255,255,255,.7) 0%, rgba(255,255,255,.5) 50%, rgba(0,0,0,0) 50%);
+  background-repeat: no-repeat;
+  background-size: 200% 100%, auto;
+  background-position: 200% 0, 0 0;
+  box-shadow: rgba(0,0,0,.3) 0 2px 5px; 
+  border-radius: 20px;
+
+}
+#submit-zakl:active {
+  
+  box-shadow: none;
+}
+#submit-zakl:hover {
+  transition: .5s linear;
+  background-position: -200% 0, 0 0;
+}
+#div-submit-zakl{
+     width:30%;
+  margin:0 auto; 
+}
+#spisok-inv{
+    width:70%;
+      margin:0 auto;
+    
+    
+}
+#ol {
+    counter-reset: li; /* Устанавливает идентификатор */
+    list-style: none; /* Удаляем стандартную нумерацию */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rounded-list2 a{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: rgba(255,255,255,.7);
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;   
+    text-shadow:1px 1px 1px black;
+
+}
+
+.rounded-list2 a:hover{
+    background: #eee;
+}
+
+.rounded-list2 a:hover:before{
+    transform: rotate(360deg);  
+}
+
+.rounded-list2 a:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #b54949;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}
+.rounded-list2 a h2{
+    font-size:14pt;
+    color:darkred;
+}
+.rounded-list2 a p{
+    font-size:9pt;
+}
+.nav{
+  display: block;
+  position: relative;
+}
+.nav:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  background: linear-gradient(90deg, 
+    #CDE0EE, #CDE0EE 20%,
+    #EBF0F3 20%, #EBF0F3 40%, 
+    #9BB0C1 40%, #9BB0C1 60%, 
+    #5D8BAD 60%, #5D8BAD 80%,
+    #041E34 80%, #041E34 100%);
+}
+
+.li-a{
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: #868686;
+  padding: 0.5em 0;
+  font-size: 2em;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+  font-family: 'Montez', cursive; /*скачать шрифт можно с сайта https://www.google.com/fonts/*/
+}
+.li-a:hover {
+  color: #f70211;
+}
+#magazin{
+    height:500px;
+    width:960px;
+      min-height:400px;
+    min-width:600px;
+   background:url(/images/magazin.jpg) no-repeat;
+   background-size: 100%;
+   float: right;
+   border:groove;
+   border-width:5px;
+   border-color: rgba(0,0,0,.3);
+   margin-right: 10%;
+   margin-top: 41px;
+   overflow:auto;
+}
+
+
+
+
+
+#container {
+	height: 100px;
+	
+}
+
+ul#nav {
+	width: 806px; margin: 0 auto; text-align: center; overflow: hidden;
+}
+	ul#nav li {
+		float: left; list-style: none; 
+	}
+		ul#nav li a {
+			display: block; width: 97px; height: 40px; 
+			padding: 33px 0 0 0; margin: 0 32px 0 32px;
+			font: bold 16px Helvetica, Arial, Sans-Serif; text-transform: uppercase;
+			color: #8b0000; text-shadow: 0 1px 3px #c4bda6; text-decoration: none;
+			
+		
+		}
+			ul#nav li a:hover {
+			
+				color: black; text-shadow: 0 2px 3px #4c2222;
+			}
+			
